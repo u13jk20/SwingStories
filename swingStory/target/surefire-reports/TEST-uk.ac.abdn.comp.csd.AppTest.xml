@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.abdn.comp.csd.AppTest" time="0.042" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="uk.ac.abdn.comp.csd.AppTest" time="0.018" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/home/codio/workspace/Week6/SwingStories/swingStory/target/test-classes:/home/codio/workspace/Week6/SwingStories/swingStory/target/classes:/home/codio/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/home/codio/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/codio/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/home/codio/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/codio/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/codio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/home/codio/workspace/prac6/SwingStories/swingStory/target/test-classes:/home/codio/workspace/prac6/SwingStories/swingStory/target/classes:/home/codio/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/home/codio/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/codio/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/home/codio/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/codio/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/codio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="java.vm.vendor" value="Azul Systems, Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="http://www.azulsystems.com/"/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/zulu-11-amd64/lib"/>
-    <property name="sun.java.command" value="/home/codio/workspace/Week6/SwingStories/swingStory/target/surefire/surefirebooter11113166456945670642.jar /home/codio/workspace/Week6/SwingStories/swingStory/target/surefire 2021-11-04T14-09-27_189-jvmRun1 surefire8043020264225098518tmp surefire_014345130592035563442tmp"/>
+    <property name="sun.java.command" value="/home/codio/workspace/prac6/SwingStories/swingStory/target/surefire/surefirebooter1621246987642226196.jar /home/codio/workspace/prac6/SwingStories/swingStory/target/surefire 2021-11-04T14-28-35_555-jvmRun1 surefire10542696723767492389tmp surefire_01077494658547126566tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/home/codio/workspace/Week6/SwingStories/swingStory/target/test-classes:/home/codio/workspace/Week6/SwingStories/swingStory/target/classes:/home/codio/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/home/codio/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/codio/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/home/codio/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/codio/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/codio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/home/codio/workspace/prac6/SwingStories/swingStory/target/test-classes:/home/codio/workspace/prac6/SwingStories/swingStory/target/classes:/home/codio/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/home/codio/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/home/codio/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/home/codio/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/home/codio/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/home/codio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/home/codio"/>
     <property name="user.language" value="en"/>
@@ -25,14 +25,14 @@
     <property name="java.version.date" value="2020-07-14"/>
     <property name="java.home" value="/usr/lib/jvm/zulu-11-amd64"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/home/codio/workspace/Week6/SwingStories/swingStory"/>
+    <property name="basedir" value="/home/codio/workspace/prac6/SwingStories/swingStory"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="jdk.vendor.version" value="Zulu11.41+23-CA"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/codio/workspace/Week6/SwingStories/swingStory/target/surefire/surefirebooter11113166456945670642.jar"/>
+    <property name="surefire.real.class.path" value="/home/codio/workspace/prac6/SwingStories/swingStory/target/surefire/surefirebooter1621246987642226196.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.8+10-LTS"/>
     <property name="user.name" value="codio"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="java.version" value="11.0.8"/>
-    <property name="user.dir" value="/home/codio/workspace/Week6/SwingStories/swingStory"/>
+    <property name="user.dir" value="/home/codio/workspace/prac6/SwingStories/swingStory"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
