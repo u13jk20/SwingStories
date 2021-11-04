@@ -1,0 +1,22 @@
+public static String story(){
+    Faker faker = new Faker();
+    StringBuilder story = new StringBuilder();
+    story.append("In a(n) ");
+    story.append(faker.hipster().word());
+    story.append(" ");
+    story.append(faker.job().field());
+    story.append(" a young ");
+    story.append(faker.hobbit().character());
+    story.append( "stumbles across a(n) ");
+    story.append(faker.ancient().primordial());
+    story.append(" which spurs them into a conflict with ");
+    story.append(faker.starTrek().villain());
+    story.append(" and their ");
+    story.append(faker.hacker().noun());
+    story.append(" culminating in ");
+    story.append(faker.leagueOfLegends().summonerSpell());
+    story.append(" where someone shouts ");
+    story.append(faker.gameOfThrones().quote());
+    story.append("!")
+    return story.toString();
+}
